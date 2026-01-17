@@ -12,15 +12,9 @@
 - Demonstrate what a **modern cloud SOC analyst** actually does  
 - Everything is performed inside a dedicated lab environment  
 
-**Focus areas:**
-- 🕵️ Threat hunting  
-- 📧 Phishing analysis  
-- 🚨 Malicious behavior investigation  
-- 📝 Incident reporting  
-
 ---
 
-## 📘 Project Overview
+## 📘 Projects
 
 This challenge documents a 30-day hands-on journey into:
 
@@ -30,6 +24,26 @@ This challenge documents a 30-day hands-on journey into:
 - Incident-style reporting  
 
 Designed to simulate how a real SOC environment operates.
+
+---
+
+## 🧩 Mini Projects
+
+These are the core hands-on projects being built and expanded throughout the challenge.
+
+- ✅ **Current Lab Environment**  
+  *Enterprise-style Microsoft SOC lab setup, logging, and telemetry foundation.*
+
+- 🚧 **Suspicious Email Analysis** *(in progress)*  
+  *Phishing investigation, header analysis, Defender triage, and reporting.*
+
+- 🚧 **Investigating an Alert** *(in progress)*  
+  *SOC-style alert triage, log correlation, and attack validation.*
+
+- 🚧 **Full Investigation** *(in progress)*  
+  *End-to-end incident workflow: scoping, timeline, evidence, MITRE mapping, and response.*
+
+(Each project’s technical work, evidence, and reports are distributed across the folders below.)
 
 ---
 
@@ -77,13 +91,3 @@ Entra ID • Microsoft Azure • MITRE ATT&CK • Oracle VirtualBox
 
 ---
 
-## 🧪 Core Work
-
-- Built a Microsoft SOC lab from scratch  
-- Deployed logging and security telemetry  
-- Simulated malicious behavior  
-- Investigated alerts and anomalies  
-- Conducted structured threat hunts  
-- Produced incident-style reports  
-
----
