@@ -1,10 +1,10 @@
-# 🛡️ 30-Day Microsoft SOC Analyst Challenge
+# 30-Day Microsoft SOC Analyst Challenge
 
 > A hands-on challenge focused on building, breaking, detecting, and investigating inside a real Microsoft cloud SOC lab.
 
 ---
 
-## 🎯 Purpose of This Challenge
+## Purpose of This Challenge
 
 - Learn cybersecurity by **doing**, not memorizing  
 - Build real systems, generate real telemetry, and investigate real behavior  
