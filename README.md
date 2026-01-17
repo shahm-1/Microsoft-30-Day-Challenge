@@ -5,14 +5,10 @@
 ## 📑 Table of Contents
 
 - [Purpose of This Challenge](#-purpose-of-this-challenge)  
-- [Why This Challenge Is Different](#-why-this-challenge-is-different)  
 - [Project Overview](#-project-overview)  
 - [Tools Used](#-tools-used)  
 - [Skills Developed](#-skills-developed)  
 - [Core Projects](#-core-projects)  
-- [How This Repo Is Organized](#-how-this-repo-is-organized)  
-- [Reflection Method](#-reflection-method)  
-- [Screenshots & Visual Evidence](#-screenshots--visual-evidence)  
 - [Results & Takeaways](#-results--takeaways)  
 
 ---
