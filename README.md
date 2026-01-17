@@ -35,8 +35,6 @@ Designed to simulate how a real SOC environment operates.
 
 ## 🗂️ Repository Structure
 
-This repo is organized to mirror how SOC work is documented.
-
 ### 🔎 KQL Queries  
 ➡️ [`/kql-queries`](./kql-queries)  
 Threat hunting queries, investigation pivots, detection experiments
