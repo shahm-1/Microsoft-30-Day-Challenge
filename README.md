@@ -1,33 +1,33 @@
 # 🛡️ 30-Day Microsoft SOC Analyst Challenge
 
+> A hands-on challenge focused on building, breaking, detecting, and investigating inside a real Microsoft cloud SOC lab.
+
 ---
 
 ## 📑 Table of Contents
-
-- [Purpose of This Challenge](#-purpose-of-this-challenge)  
-- [Project Overview](#-project-overview)  
-- [Tools Used](#-tools-used)  
-- [Skills Developed](#-skills-developed)  
-- [Core Projects](#-core-projects)  
-- [Results & Takeaways](#-results--takeaways)  
+- 🎯 Purpose  
+- 📘 Overview  
+- 🗂️ Repository Structure  
+- 🧰 Tools  
+- 🧠 Skills  
+- 🧪 Core Work  
+- 📊 Results  
 
 ---
 
 ## 🎯 Purpose of This Challenge
 
-- I learn best by doing  
-- This portfolio is where I build systems, investigate behavior, harden environments, and turn complexity into clarity  
-- It reflects how I approach security: calmly, structurally, and with long-term impact in mind  
-- I am documenting this challenge to share what I learn with others who are curious about cybersecurity  
-- This challenge demonstrates what a modern **cloud SOC analyst** actually does using real Microsoft security tools  
-- All work is performed inside a dedicated lab environment  
+- Learn cybersecurity by **doing**, not memorizing  
+- Build real systems, generate real telemetry, and investigate real behavior  
+- Share what I learn with others curious about cybersecurity  
+- Demonstrate what a **modern cloud SOC analyst** actually does  
+- Everything is performed inside a dedicated lab environment  
 
-Focus areas include:
-
-- Investigating malicious behavior  
-- Analyzing phishing emails  
-- Threat hunting  
-- Writing incident reports  
+**Focus areas:**
+- 🕵️ Threat hunting  
+- 📧 Phishing analysis  
+- 🚨 Malicious behavior investigation  
+- 📝 Incident reporting  
 
 ---
 
@@ -40,59 +40,74 @@ This challenge documents a 30-day hands-on journey into:
 - Detection and investigation workflows  
 - Incident-style reporting  
 
-Everything is designed to simulate how a real SOC environment operates.
+Designed to simulate how a real SOC environment operates.
+
+---
+
+## 🗂️ Repository Structure
+
+This repo is organized to mirror how SOC work is documented.
+
+### 🔎 KQL Queries  
+➡️ [`/kql-queries`](./kql-queries)  
+Threat hunting queries, investigation pivots, detection experiments
+
+---
+
+### 🖼️ Screenshots & Dashboards  
+➡️ [`/screenshots-dashboards`](./screenshots-dashboards)  
+Dashboards, alerts, timelines, visual evidence
+
+---
+
+### 📧 Phishing Simulations  
+➡️ [`/phishing-simulations`](./phishing-simulations)  
+Phishing investigations, header analysis, simulation exercises
+
+---
+
+### 📝 Reports & Reflections  
+➡️ [`/reports-reflections`](./reports-reflections)  
+Incident-style reports, challenge writeups, lessons learned
 
 ---
 
 ## 🧰 Tools Used
 
-- Microsoft Sentinel  
-- Microsoft Defender for Endpoint  
-- Microsoft Defender for Office 365  
-- Entra ID  
-- Microsoft Azure  
-- MITRE ATT&CK Framework  
-- Oracle VirtualBox  
+Microsoft Sentinel • Defender for Endpoint • Defender for Office 365  
+Entra ID • Microsoft Azure • MITRE ATT&CK • Oracle VirtualBox  
 
 ---
 
 ## 🧠 Skills Developed
 
-- Building a Microsoft-based SOC lab from scratch  
-- Deploying and configuring Sentinel, Defender, and Entra ID  
-- Writing and refining KQL queries  
-- Investigating phishing, malware, and identity-based attacks  
-- Performing endpoint and cloud-based investigations  
-- Writing incident reports mapped to MITRE ATT&CK  
-- Practicing real SOC detection and response workflows  
+- Microsoft SOC lab design & deployment  
+- KQL threat hunting and investigation  
+- Phishing, malware, and identity attack analysis  
+- Endpoint and cloud investigations  
+- Incident reporting mapped to MITRE ATT&CK  
+- SOC detection and response workflows  
 
 ---
 
-## 🧪 Core Projects
+## 🧪 Core Work
 
-- Built a Microsoft SOC lab environment  
+- Built a Microsoft SOC lab from scratch  
 - Deployed logging and security telemetry  
 - Simulated malicious behavior  
 - Investigated alerts and anomalies  
-- Conducted threat hunts  
+- Conducted structured threat hunts  
 - Produced incident-style reports  
 
 ---
 
 ## 📊 Results & Takeaways
 
-This challenge helped me develop:
-
 - Stronger investigation discipline  
-- Better understanding of Microsoft security tooling  
-- Confidence working with telemetry and alerts  
-- Experience writing SOC-style reports  
 - Clearer thinking around attacker behavior  
-
-Key outcomes:
-
-- Skills I can now perform that I couldn’t before  
-- A structured investigation workflow  
-- A deeper understanding of detection and response  
+- Confidence working with logs and alerts  
+- Real experience with Microsoft security tools  
+- A structured SOC investigation workflow  
 
 ---
+
