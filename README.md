@@ -1,128 +1,102 @@
-# 30-Day Microsoft SOC Analyst Challenge
+# 🛡️ 30-Day Microsoft SOC Analyst Challenge
+
 ---
 
-- I have always been the type of person that learns by doing.
-- This portfolio is where I build systems, investigate behavior, harden environments, and turn complexity into clarity.
-It reflects how I think about security: calmly, structurally, and with long-term impact in mind.
-- I'm documenthing this challenge to share the knowledge I gain with others who are also curious about learning how Cybersecurity works.
-- This challenge is meant to demonstrate what a modern cloud SOC analyst does using real Microsoft security tools.
-- I will investigate malicious behaviour, phishing emails, hunt for threats and write incident reports-all within this lab environment.
+## 📑 Table of Contents
 
+- [Purpose of This Challenge](#-purpose-of-this-challenge)  
+- [Why This Challenge Is Different](#-why-this-challenge-is-different)  
+- [Project Overview](#-project-overview)  
+- [Tools Used](#-tools-used)  
+- [Skills Developed](#-skills-developed)  
+- [Core Projects](#-core-projects)  
+- [How This Repo Is Organized](#-how-this-repo-is-organized)  
+- [Reflection Method](#-reflection-method)  
+- [Screenshots & Visual Evidence](#-screenshots--visual-evidence)  
+- [Results & Takeaways](#-results--takeaways)  
 
+---
 
+## 🎯 Purpose of This Challenge
 
-And that’s intentional.
+- I learn best by doing  
+- This portfolio is where I build systems, investigate behavior, harden environments, and turn complexity into clarity  
+- It reflects how I approach security: calmly, structurally, and with long-term impact in mind  
+- I am documenting this challenge to share what I learn with others who are curious about cybersecurity  
+- This challenge demonstrates what a modern **cloud SOC analyst** actually does using real Microsoft security tools  
+- All work is performed inside a dedicated lab environment  
 
-Why This One Is Different
+Focus areas include:
 
-In the real world, SOC analysts often don’t get hand-holding.
-They’re expected to research, test, and figure things out—and that’s exactly the kind of mindset this challenge builds.
+- Investigating malicious behavior  
+- Analyzing phishing emails  
+- Threat hunting  
+- Writing incident reports  
 
+---
 
+## 📘 Project Overview
 
+This challenge documents a 30-day hands-on journey into:
 
+- Cloud SOC operations  
+- Microsoft security tooling  
+- Detection and investigation workflows  
+- Incident-style reporting  
 
-You’ll be asked to investigate alerts without detailed instructions
+Everything is designed to simulate how a real SOC environment operates.
 
+---
 
+## 🧰 Tools Used
 
-You’ll run simulations with only context, not copy/paste commands
+- Microsoft Sentinel  
+- Microsoft Defender for Endpoint  
+- Microsoft Defender for Office 365  
+- Entra ID  
+- Microsoft Azure  
+- MITRE ATT&CK Framework  
+- Oracle VirtualBox  
 
+---
 
+## 🧠 Skills Developed
 
-You’ll write reports based on what you observed, not what I told you to see
+- Building a Microsoft-based SOC lab from scratch  
+- Deploying and configuring Sentinel, Defender, and Entra ID  
+- Writing and refining KQL queries  
+- Investigating phishing, malware, and identity-based attacks  
+- Performing endpoint and cloud-based investigations  
+- Writing incident reports mapped to MITRE ATT&CK  
+- Practicing real SOC detection and response workflows  
 
+---
 
+## 🧪 Core Projects
 
+- Built a Microsoft SOC lab environment  
+- Deployed logging and security telemetry  
+- Simulated malicious behavior  
+- Investigated alerts and anomalies  
+- Conducted threat hunts  
+- Produced incident-style reports  
 
+---
 
+## 📊 Results & Takeaways
 
-2. Write a Clear Project Overview
+This challenge helped me develop:
 
-In your main page, briefly explain:
+- Stronger investigation discipline  
+- Better understanding of Microsoft security tooling  
+- Confidence working with telemetry and alerts  
+- Experience writing SOC-style reports  
+- Clearer thinking around attacker behavior  
 
-What this challenge is
+Key outcomes:
 
-### Tools
+- Skills I can now perform that I couldn’t before  
+- A structured investigation workflow  
+- A deeper understanding of detection and response  
 
-- Microsoft Sentinel
-- Microsoft Defender for Endpoint
-- Defender for Office 365
-- Entra ID
-- Microsoft Azure
-- MITRE ATT&CK Framework
-- Oracle VirtualBox
-
-### Skills Developed
-
-- Set up Microsoft Sentinel, Defender for Endpoint, Defender for Office 365, and Entra ID
-- KQL Querying
-- Investigating phishing, malware, and identity-based attacks
-- Incident reports mapped to MITRE ATT&CK
-- Practice detection and response workflows used in real SOCs
-
-### Projects
-
-- Built a Microsoft SOC lab from scratch
-
-
-
-3. Organize Your Work by Day or Theme
-
-Break your challenge into folders or sections:
-
-One for KQL queries
-
-One for screenshots or dashboards
-
-One for phishing simulations
-
-One for written reports or reflections
-
-This makes it easy for others to navigate and shows you understand structure and documentation.
-
-4. Reflect On What You Did and Learned
-
-Each mini-project should include:
-
-
-What the task was
-
-What steps you took
-
-What you discovered or learned
-
-What you would do differently (if anything) in a real SOC
-
-This shows critical thinking not just technical steps.
-
-5. Include Screenshots or Visuals When It Makes Sense
-
-Visuals make your work more believable and engaging.
-
-Screenshots of dashboards, alerts, or policies are great just avoid uploading anything sensitive.
-
-6. End With a Summary of Results
-
-Close your project with:
-
-What you can now do that you couldn’t before
-
-What part of the challenge was most impactful
-
-
-What areas you want to keep improving
-
-Optional:
-
-Add a simple “table of contents” to your README
-
-
-
-Use bullet points, not paragraphs
-
-
-
-
-
-<img width="842" height="798" alt="image" src="https://github.com/user-attachments/assets/99822a6b-5e62-4723-885e-d3237cb23a17" />
+---
