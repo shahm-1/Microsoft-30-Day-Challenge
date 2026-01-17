@@ -4,17 +4,6 @@
 
 ---
 
-## 📑 Table of Contents
-- 🎯 Purpose  
-- 📘 Overview  
-- 🗂️ Repository Structure  
-- 🧰 Tools  
-- 🧠 Skills  
-- 🧪 Core Work  
-- 📊 Results  
-
----
-
 ## 🎯 Purpose of This Challenge
 
 - Learn cybersecurity by **doing**, not memorizing  
@@ -100,14 +89,3 @@ Entra ID • Microsoft Azure • MITRE ATT&CK • Oracle VirtualBox
 - Produced incident-style reports  
 
 ---
-
-## 📊 Results & Takeaways
-
-- Stronger investigation discipline  
-- Clearer thinking around attacker behavior  
-- Confidence working with logs and alerts  
-- Real experience with Microsoft security tools  
-- A structured SOC investigation workflow  
-
----
-
