@@ -1,0 +1,59 @@
+// =====================================================
+// Current Lab Environment - Telemetry Validation
+// =====================================================
+
+
+
+// =====================================================
+// Office / Cloud Activity Validation
+// =====================================================
+OfficeActivity_CL
+| where isnotempty(account_s)
+| project TimeGenerated, account_s, client_ip_s, model_evasionscore_s, model_id_s
+
+
+
+// =====================================================
+// AppLocker Telemetry Validation (Endpoint Control Events)
+// =====================================================
+SecurityEvent_CL
+| where TimeGenerated between (todatetime('2026-01-12T20:57:17.010024Z') .. todatetime('2026-01-12T20:58:17.010024Z'))
+| where Computer contains "soc-fw-rdp"
+| where EventSourceName_s contains "locker"
+| project TimeGenerated, Computer, AccountType_s, EventID_s, EventSourceName_s
+| order by TimeGenerated desc
+
+
+
+// =====================================================
+// Failed Logon Telemetry Check (4625 Events)
+// =====================================================
+let NumberofLogins = 100;
+
+SecurityEvent_CL
+| where Activity_s == "4625 - An account failed to log on."
+| where TimeGenerated > ago(1d)
+| summarize AttemptedLogins = count() by Account_s, EventID_s
+| where AttemptedLogins > NumberofLogins
+| sort by AttemptedLogins desc
+
+
+
+// =====================================================
+// Scheduled Rule Logic - Excessive Failed Logons
+// =====================================================
+SecurityEvent_CL
+| where EventID_s == "4625"
+| summarize FailedLogons = count() by Account_s
+| where FailedLogons >= 1000
+
+
+
+// =====================================================
+// Azure Control-Plane Telemetry - DELETE Operations
+// =====================================================
+AzureActivity
+| where TimeGenerated > ago(7d)
+| where CallerIpAddress in ("52.240.241.90", "20.44.10.211", "20.62.57.158")
+| where OperationNameValue contains "DELETE"
+| summarize Operations = count(), IPs = make_set(CallerIpAddress) by OperationNameValue
