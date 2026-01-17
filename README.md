@@ -31,7 +31,7 @@ Designed to simulate how a real SOC environment operates.
 
 These are the core hands-on projects being built and expanded throughout the challenge.
 
-- ✅ **Current Lab Environment**  
+- ✅ [Current Lab Environment](./reports-reflections/current-lab-environment.md)
   *Enterprise-style Microsoft SOC lab setup, logging, and telemetry foundation.*
 
 - 🚧 **Suspicious Email Analysis** *(in progress)*  
@@ -42,8 +42,6 @@ These are the core hands-on projects being built and expanded throughout the cha
 
 - 🚧 **Full Investigation** *(in progress)*  
   *End-to-end incident workflow: scoping, timeline, evidence, MITRE mapping, and response.*
-
-(Each project’s technical work, evidence, and reports are distributed across the folders below.)
 
 ---
 
