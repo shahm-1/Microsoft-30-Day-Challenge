@@ -4,8 +4,8 @@
 
 ## 📑 Table of Contents
 
-- [Purpose of This Challenge](#-purpose-of-this-challenge)
-- [Project Overview](#-project-overview)
+- [Purpose of This Challenge](#purpose-of-this-challenge)
+- [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
 
 ---
