@@ -9,8 +9,8 @@
 - [Project Overview](#-project-overview)
 - [SOC Capability Map](#-soc-capability-map)
 - [Repository Structure](#%EF%B8%8F-repository-structure)
-  - [KQL Queries](-#kql-queries)
-  - [Screenshots & Dashboards](#-screenshots--dashboards)
+  - [KQL Queries](#-kql-queries)
+  - [Screenshots & Dashboards](#%EF%B8%8F-screenshots--dashboards)
   - [Phishing Simulations](#-phishing-simulations)
   - [Reports & Reflections](#-reports--reflections)   
 
