@@ -12,11 +12,11 @@
 
 ## 🎯 Purpose of This Challenge
 
-- Learn cybersecurity by **doing**, not memorizing  
-- Build real systems, generate real telemetry, and investigate real behavior  
-- Share what I learn with others curious about cybersecurity  
-- Demonstrate what a **modern cloud SOC analyst** actually does  
-- Everything is performed inside a dedicated lab environment  
+- Learn cybersecurity by doing, not memorizing  
+- Build real systems and investigate real behavior  
+- Work directly with telemetry, detection logic, and investigations  
+- Demonstrate what a modern cloud SOC analyst actually does  
+- Share the journey with others interested in cybersecurity  
 
 ---
 
@@ -42,7 +42,12 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 
 ## 🏗️ Current Lab Environment
 
+This section represents the current state of the SOC lab used as the foundation for all investigations and mini-projects.
+
 ![Current Lab Diagram](screenshots-dashboards/current-lab-environment/Lab_Diagram.png)
+
+*High-level view of the Microsoft-based SOC lab architecture and how endpoint, identity, and cloud telemetry flow into Sentinel for detection and investigation.*
+
 
 ### 📦 Resources Created So Far
 
@@ -63,7 +68,7 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 | Defender for Endpoint | Endpoint investigation & response | Endpoint telemetry, process, and alert investigations |
 | Defender for Office 365 | Phishing and email analysis | Phishing investigations and email telemetry |
 | MITRE ATT&CK | Adversary behavior mapping | Techniques mapped to investigations and reports |
-| Microsoft Defender (suite) | SOC detection & response workflows | Alert investigations and incident-style reports |
+| Microsoft Defender XDR | SOC detection & response workflows | Alert investigations and incident-style reports |
 | - | Incident reporting & documentation | Incident-style reports and reflections |
 
 ---
