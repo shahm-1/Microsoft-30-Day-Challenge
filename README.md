@@ -51,8 +51,8 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 
 ![Current Lab Diagram](screenshots-dashboards/current-lab-environment/Lab_Diagram.png)
 
-```text
-[ Example: Azure / Entra ID / Sentinel / Defender / VMs / Logging Flow ]
+```Resources Created so far:
+[ Azure Subscription 1 / MsDFIR-Sha-RG (Resource Group) / MsDFIR-Sha-LAW (Log Analytics Workspaces) / Azure Activity Logs / Defender XDR Sentinel / Sentinel / Oracle VirtualBox / MSDFIR-Sha-VM (Virtual Machine) ]
 ```
 
 
