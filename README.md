@@ -8,6 +8,12 @@
 - [Purpose of This Challenge](#-purpose-of-this-challenge)
 - [Project Overview](#-project-overview)
 - [Repository Structure](#%EF%B8%8F-repository-structure)
+- [SOC Capability Map](#soc-capability-map)
+- [Repository Structure](#repository-structure)
+  - [KQL Queries](#kql-queries)
+  - [Screenshots & Dashboards](#screenshots--dashboards)
+  - [Phishing Simulations](#phishing-simulations)
+  - [Reports & Reflections](#reports--reflections)   
 
 ---
 
