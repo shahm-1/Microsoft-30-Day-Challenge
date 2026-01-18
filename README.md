@@ -19,30 +19,21 @@
 ## 🎯 Purpose of This Challenge
 
 - Learn cybersecurity by doing, not memorizing  
-- Build real systems and investigate real behavior  
-- Work directly with telemetry, detection logic, and investigations  
+- Work directly with real systems, telemetry, and investigations  
+- Develop practical SOC-level skills through hands-on projects  
 - Demonstrate what a modern cloud SOC analyst actually does  
-- Share the journey with others interested in cybersecurity  
+- Share the journey and lessons learned with others interested in cybersecurity  
 
 ---
 
 ## 📘 Project Overview
 
-This repository documents a 30-day, hands-on Microsoft cloud SOC challenge focused on building, breaking, detecting, and investigating inside a real lab environment.
+This repository documents a 30-day, hands-on Microsoft cloud SOC challenge focused on building and operating a real lab environment.
 
-The purpose of this project is to document real SOC-style work, show how I learn cybersecurity through building and investigation, and share what I learn with others interested in cybersecurity.
+The project centers on designing a Microsoft-based SOC lab, onboarding security tooling, validating telemetry, and using that environment to conduct threat hunts, analyze phishing activity, investigate alerts, and produce incident-style reports.
 
-This challenge is designed to demonstrate what a modern cloud SOC analyst actually does — working with real systems, real telemetry, and real investigation workflows rather than isolated labs.
+The goal is to simulate how a real SOC environment operates and to capture the technical work, investigation process, and documentation that comes with it.
 
-Throughout this project, I am focused on:
-
-- Learning by doing, not memorizing  
-- Building real environments instead of only following walkthroughs  
-- Working directly with telemetry, detection logic, and investigations  
-- Intentionally developing SOC-level technical skills  
-- Understanding how systems behave and how attacks unfold  
-
-The work in this repository includes building a Microsoft-based SOC lab, onboarding security tooling, validating telemetry, performing threat hunts, analyzing phishing activity, investigating alerts, and producing incident-style reports.
 
 ## 🏗️ Current Lab Environment
 
