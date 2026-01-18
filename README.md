@@ -4,16 +4,9 @@
 
 ## 📑 Table of Contents
 
-- [Purpose of This Challenge](#-purpose-of-this-challenge)  
-- [Project Overview](#-project-overview)  
-- [Tools Used](#-tools-used)  
-- [Skills Developed](#-skills-developed)  
-- [What Was Built or Investigated](#-what-was-built-or-investigated)  
-- [Repository Structure](#-repository-structure)  
-  - [KQL Queries](#-kql-queries)  
-  - [Screenshots & Dashboards](#-screenshots--dashboards)  
-  - [Phishing Simulations](#-phishing-simulations)  
-  - [Reports & Reflections](#-reports--reflections)  
+- [Purpose of This Challenge](#-purpose-of-this-challenge)
+- [Project Overview](#-project-overview)
+- [Repository Structure](#-repository-structure)
 
 ---
 
@@ -51,8 +44,10 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 
 ![Current Lab Diagram](screenshots-dashboards/current-lab-environment/Lab_Diagram.png)
 
-```Resources Created so far:
-[ Azure Subscription 1 / MsDFIR-Sha-RG (Resource Group) / MsDFIR-Sha-LAW (Log Analytics Workspaces) / Azure Activity Logs / Defender XDR Sentinel / Sentinel / Oracle VirtualBox / MSDFIR-Sha-VM (Virtual Machine) ]
+Resources Created so far:
+```
+[ Azure Subscription 1 / MsDFIR-Sha-RG (Resource Group) / MsDFIR-Sha-LAW (Log Analytics Workspaces) 
+/ Azure Activity Logs / Defender XDR Sentinel / Sentinel / Oracle VirtualBox / MSDFIR-Sha-VM (Virtual Machine) ]
 ```
 
 
