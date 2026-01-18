@@ -44,47 +44,27 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 
 ![Current Lab Diagram](screenshots-dashboards/current-lab-environment/Lab_Diagram.png)
 
-Resources Created so far:
-```
-[ Azure Subscription 1 / MsDFIR-Sha-RG (Resource Group) / MsDFIR-Sha-LAW (Log Analytics Workspaces) 
-/ Azure Activity Logs / Defender XDR Sentinel / Sentinel / Oracle VirtualBox / MSDFIR-Sha-VM (Virtual Machine) ]
-```
+### 📦 Resources Created So Far
+
+**Cloud:** Azure Subscription, Resource Group (MsDFIR-Sha-RG), Log Analytics Workspace (MsDFIR-Sha-LAW), Azure Activity Logs  
+**Security:** Microsoft Defender XDR, Microsoft Sentinel  
+**Infrastructure:** Oracle VirtualBox, MSDFIR-Sha-VM
 
 
 
----
+## 🔍 SOC Capability Map
 
-## 🧰 Tools Used
-
-- Microsoft Sentinel  
-- Microsoft Defender for Endpoint  
-- Microsoft Defender for Office 365  
-- Entra ID  
-- Microsoft Azure  
-- MITRE ATT&CK Framework  
-- Oracle VirtualBox
-
----
-
-## 🧠 Skills Developed
-
-- Microsoft SOC lab design and deployment  
-- KQL threat hunting and investigation  
-- Detection and investigation workflows  
-- Endpoint and cloud-based investigations  
-- Incident-style reporting mapped to MITRE ATT&CK  
-- SOC detection and response workflows  
-
----
-
-## 🏗️ What Was Built or Investigated
-
-- A Microsoft-based cloud SOC lab  
-- Log ingestion and telemetry pipelines  
-- Threat hunting scenarios  
-- Phishing, malware, and identity-based attack analysis  
-- Alert investigations  
-- Incident-style reports  
+| **🧰 Tools & Platforms** | **🧠 Security Skills Built** | **🏗️ Hands-On Outcomes** |
+|:----------------------:|:--------------------------:|:---------------------:|
+| Microsoft Azure | SOC lab design & deployment | Microsoft-based cloud SOC lab |
+| Oracle VirtualBox | Environment building & validation | On-prem and test VM infrastructure |
+| Entra ID | Identity & access investigation | Identity telemetry and sign-in activity analysis |
+| Microsoft Sentinel | Log analytics, detection engineering, KQL hunting | Log ingestion, hunting queries, and analytics rules |
+| Defender for Endpoint | Endpoint investigation & response | Endpoint telemetry, process, and alert investigations |
+| Defender for Office 365 | Phishing and email analysis | Phishing investigations and email telemetry |
+| MITRE ATT&CK | Adversary behavior mapping | Techniques mapped to investigations and reports |
+| Microsoft Defender (suite) | SOC detection & response workflows | Alert investigations and incident-style reports |
+| - | Incident reporting & documentation | Incident-style reports and reflections |
 
 ---
 
