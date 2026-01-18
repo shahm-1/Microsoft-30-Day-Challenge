@@ -1,6 +1,7 @@
 # Week 1 Reflection
 
 ![Dashboard](screenshots-dashboards/Day5-Dashboard1-2.png)
+
 *Number of Failed Logon Attempts based on Account Name*
 
 I learned that Dashboards can help a SOC Analyst monitor patterns without having to run the query.
