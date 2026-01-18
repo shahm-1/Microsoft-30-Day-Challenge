@@ -6,7 +6,7 @@
 
 - [Purpose of This Challenge](#-purpose-of-this-challenge)
 - [Project Overview](#-project-overview)
-- [Repository Structure](#-repository-structure)
+- [Repository Structure](#repository-structure)
 
 ---
 
