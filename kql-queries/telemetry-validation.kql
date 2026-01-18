@@ -28,7 +28,7 @@ SecurityEvent_CL
 // =====================================================
 // Failed Logon Telemetry Check (4625 Events)
 // =====================================================
-let NumberofLogins = 100;
+
 
 SecurityEvent_CL
 | where Activity_s == "4625 - An account failed to log on."
