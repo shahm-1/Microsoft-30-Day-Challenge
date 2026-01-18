@@ -44,8 +44,6 @@ Throughout this project, I am focused on:
 
 The work in this repository includes building a Microsoft-based SOC lab, onboarding security tooling, validating telemetry, performing threat hunts, analyzing phishing activity, investigating alerts, and producing incident-style reports.
 
----
-
 ## 🏗️ Current Lab Environment
 
 This section represents the current state of the SOC lab used as the foundation for all investigations and mini-projects.
@@ -54,14 +52,13 @@ This section represents the current state of the SOC lab used as the foundation 
 
 *High-level view of the Microsoft-based SOC lab architecture and how endpoint, identity, and cloud telemetry flow into Sentinel for detection and investigation.*
 
-
 ### 📦 Resources Created So Far
 
 **Cloud:** Azure Subscription, Resource Group (MsDFIR-Sha-RG), Log Analytics Workspace (MsDFIR-Sha-LAW), Azure Activity Logs  
 **Security:** Microsoft Defender XDR, Microsoft Sentinel  
 **Infrastructure:** Oracle VirtualBox, MSDFIR-Sha-VM
 
-
+---
 
 ## 🔍 SOC Capability Map
 
