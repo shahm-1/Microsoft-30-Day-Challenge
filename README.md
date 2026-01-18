@@ -44,7 +44,7 @@ The work in this repository includes building a Microsoft-based SOC lab, onboard
 
 This section represents the current state of the SOC lab used as the foundation for all investigations and mini-projects.
 
-![Current Lab Diagram](screenshots-dashboards/current-lab-environment/Lab_Diagram.png)
+![Current Lab Diagram](screenshots-dashboards/Lab_Diagram.png)
 
 *High-level view of the Microsoft-based SOC lab architecture and how endpoint, identity, and cloud telemetry flow into Sentinel for detection and investigation.*
 
